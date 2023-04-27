@@ -1,0 +1,6 @@
+services:
+  prismis-ai-bot:
+    build: .
+    shm_size: 3gb
+    ports:
+      - "80:8080"
